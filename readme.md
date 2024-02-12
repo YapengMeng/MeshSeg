@@ -47,27 +47,27 @@ Single K-way decomposition:
 
 我们分析了几种方法：
 Our analysis covers several approaches:
-
-- **单次01分解 Single 01 Decomposition**: 展示恐龙模型的初始分段。
-  Demonstrates the initial segmentation of the dinosaur model.
-  <div align="center">
+<div align="center">
   ![单次01分解 Single 01 Decomposition](/assets/Single_01_Decomposition.png)
   </div>
+- **单次01分解 Single 01 Decomposition**: 展示恐龙模型的初始分段。
+  Demonstrates the initial segmentation of the dinosaur model.
+  
 - **层次化01分解 Hierarchical 01 Decomposition**: 进一步分解模型以获得更详细的分段。
   Further decomposes the model for more detailed segmentation.
-  <div align="center">
+  <!-- <div align="center"> -->
   ![层次化01分解 Hierarchical 01 Decomposition](/assets/Hierarchical_01_Decomposition.png)
-  </div>
+  <!-- </div> -->
 - **K-路分解 K-way Decomposition**: 自动选择K=3，将模型沿其长度分成三个主要部分。
   Automatically selects K=3, dividing the model into three main parts along its length.
-  <div align="center">
+  <!-- <div align="center"> -->
   ![K-路分解 K-way Decomposition](/assets/K-way_Decomposition.png)
-  </div>
+  <!-- </div> -->
 - **层次化K-路分解 Hierarchical K-way Decomposition**: 通过计算不同部分的特定K值，推进分解过程，总共得到15个分割部分。
   Advances the decomposition process by calculating specific K values for different parts, resulting in a total of 15 segmented parts.  
-  <div align="center">
+  <!-- <div align="center"> -->
   ![层次化K-路分解 Hierarchical K-way Decomposition](/assets/Hierarchical_K-way_Decomposition.png)  
-  </div>
+  <!-- </div> -->
 
 每种技术的效果都通过显示分割恐龙模型的PNG图片来说明。分割结果清晰地划分了恐龙的解剖学部分，突出了层次方法的精确性。
 Each technique's effectiveness is illustrated with PNG images showing the segmented dinosaur model. The segmentation results offer a clear division of the dinosaur's anatomy, highlighting the precision of hierarchical methods.
